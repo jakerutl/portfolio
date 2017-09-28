@@ -4,7 +4,7 @@
     require 'nav.php';
    ?>
 
-<div class="contactForm">
+<div class="container">
 
 <h2>My portfolio is coming soon! If you have any questions please feel free to leave me an email!</h2>
 
@@ -47,6 +47,7 @@
     </fieldset>
   </form>
 </div>
+
 
 </body>
 </html>
