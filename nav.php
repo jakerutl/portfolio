@@ -10,7 +10,7 @@
 <body>
 
 
-<!-- <nav>
+<nav>
   <div class="navigation">
     <ul>
       <li><a href="index.php">Home</a></li>
@@ -19,10 +19,13 @@
       <li><a href="about.php">About</a></li>
     </ul>
   </div>
-</nav> -->
+</nav>
 
 
 <div id="mySidenav" class="sidenav">
+  <div class="logo">
+    <img src="images/new_logo.png" alt="small logo">
+  </div>
     <li><a href="#" class="closebtn" onclick="closeNav()">&times;</a></li>
     <li><a href="index.php">Home</a></li>
     <li><a href="gallery.php">Gallery</a></li>

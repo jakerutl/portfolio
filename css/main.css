@@ -1,12 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 
 
+
 .navigation{
   margin-bottom: 40px;
   font-family:"Arial";
   height:auto;
   width:100%;
   float: left;
+  border-bottom: 1px solid black;
 }
 
 .navigation ul li{
@@ -31,72 +33,87 @@
   color: #FCD000;
 }
 
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #4487CC;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-
-
-.bar1{
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-}
-
-.bar2{
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-}
-.bar3{
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-}
-
-.hamburger{
-  padding-top: 20px;
-  padding-left: 10px;
-  margin-bottom: 20px;
-}
 
 h2{
   text-align: center;
+}
+
+
+@media only screen and (min-width: 800px){
+  .sidenav{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
 
     .navigation{
       display: none;
+    }
+
+    .logo{
+      width: 100px;
+      margin: 0 auto;
+    }
+
+    .sidenav {
+        list-style-type: none;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #4487CC;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+    }
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+
+
+    .bar1{
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+    }
+
+    .bar2{
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+    }
+    .bar3{
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+    }
+
+    .hamburger{
+      padding-top: 20px;
+      padding-left: 30px;
+      margin-bottom: 20px;
     }
 }
 
