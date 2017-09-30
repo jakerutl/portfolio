@@ -32,6 +32,11 @@
     <li><a href="contact.php">Contact</a></li>
     <li><a href="about.php">About</a></li>
   </ul>
+<!-- <div class="personalP">
+  <h2>Personal Phone: 226-378-7162</h2>
+</div> -->
+
+  <h2 class="myInfo">Personal Phone: 226-378-7162</h2>
 </div>
 
 <div class="hamburger">
@@ -47,7 +52,6 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }
 
-/* Set the width of the side navigation to 0 */
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
