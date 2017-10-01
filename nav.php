@@ -6,6 +6,7 @@
     <title>Portfolio Coming Soon!</title>
   <!-- <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"> -->
   <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
 </head>
 <body>
 
@@ -26,6 +27,7 @@
   <div class="logo">
     <img src="images/new_logo.png" alt="small logo">
   </div>
+  <ul>
     <li><a href="#" class="closebtn" onclick="closeNav()">&times;</a></li>
     <li><a href="index.php">Home</a></li>
     <li><a href="gallery.php">Gallery</a></li>
@@ -40,11 +42,11 @@
 </div>
 
 <div class="hamburger">
-<span onclick="openNav()">
+<div onclick="openNav()">
   <div class="bar1"></div>
   <div class="bar2"></div>
   <div class="bar3"></div>
-</span>
+</div>
 </div>
 
 <script>
