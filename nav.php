@@ -14,10 +14,11 @@
 <nav>
   <div class="navigation">
     <ul>
-      <li><a href="index.php">Home</a></li>
-      <li><a href="gallery.php">Gallery</a></li>
-      <li><a href="contact.php">Contact</a></li>
-      <li><a href="about.php">About</a></li>
+      <li><a href="index.php">HOME</a></li>
+      <li><a href="about.php">ABOUT ME</a></li>
+      <li><a href="gallery.php">PORTFOLIO</a></li>
+      <li><a href="contact.php">CONTACT</a></li>
+      <img class="headerLogo" src="images/jr.png" alt="logo">
     </ul>
   </div>
 </nav>
@@ -25,20 +26,20 @@
 
 <div id="mySidenav" class="sidenav">
   <div class="logo">
-    <img src="images/new_logo.png" alt="small logo">
+    <img src="images/jr.png" alt="small logo">
   </div>
   <ul>
     <li><a href="#" class="closebtn" onclick="closeNav()">&times;</a></li>
-    <li><a href="index.php">Home</a></li>
-    <li><a href="gallery.php">Gallery</a></li>
-    <li><a href="contact.php">Contact</a></li>
-    <li><a href="about.php">About</a></li>
+    <li><a href="index.php">HOME</a></li>
+    <li><a href="about.php">ABOUT ME</a></li>
+    <li><a href="gallery.php">PORTFOLIO</a></li>
+    <li><a href="contact.php">CONTACT</a></li>
   </ul>
 <!-- <div class="personalP">
   <h2>Personal Phone: 226-378-7162</h2>
 </div> -->
 
-  <h2 class="myInfo">Personal Phone: 226-378-7162</h2>
+  <h2 class="myCell">Personal Phone: 226-378-7162</h2>
 </div>
 
 <div class="hamburger">
