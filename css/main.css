@@ -156,132 +156,198 @@
 
     /* nav ends */
 
-/*About me page starts*/
-.Aboutbody{
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
-}
+    /*About me page starts*/
+    .Aboutbody{
+      width: 300px;
+      height: 300px;
+      margin: 0 auto;
+    }
 
-.profile{
-  width: 100%;
-  border-radius: 10px;
-  padding: 5px;
-  border: 3px solid #dcdcdc;
-  transition: all .2s ease-in;
-}
+    .profile{
+      width: 100%;
+      border-radius: 10px;
+      padding: 5px;
+      border: 3px solid #dcdcdc;
+      transition: all .2s ease-in;
+    }
 
-.profile:hover{
-  transform: scale(1.05);
-}
+    .profile:hover{
+      transform: scale(1.05);
+    }
 
-.liljake{
-  margin-top: 40px;
-  margin-bottom: 60px;
-  font-family: Arctic;
-}
+    .liljake{
+      margin-top: 40px;
+      margin-bottom: 60px;
+      font-family: Arctic;
+    }
 
-h2{
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
+    h2{
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
 
-p{
-  padding-bottom: 30px;
-  border-bottom: 2px solid #dcdcdc;
-  font-size: 16px;
-}
+    .info{
+      padding-bottom: 30px;
+      border-bottom: 2px solid #dcdcdc;
+      font-size: 16px;
+    }
 
-/*about me page ends*/
-
-
-/* Gallery starts */
-
-/* Gallery ends */
+    /*about me page ends*/
 
 
-/*contact starts */
-.Concontainer {
-  max-width: 360px;
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
+    /* Gallery starts */
+    .subImagesContainer {
+    	padding: 0;
+    	width: 560px;
+    	margin: 0 auto;
+     }
 
-.contactHeader{
-  text-align: center;
-  font-size: 26px;
-}
+    .thumb {
+    	width: 160px;
+    	margin: 8px;
+    	border: 5px solid grey;
+    	border-radius: 5px;
+    	cursor: pointer;
+    	transition: opacity 0.2s ease-in;
+    	transition:  transform 0.2s ease-in;
+    }
 
-#contact {
-  background: #e5e5e5;
-  padding: 18px;
-  margin-top: 50px;
-  border: 2px solid #52a2da;
-  border-radius: 20px;
-}
+    .thumb:hover{
+    	opacity: 0.8;
+    	transform: scale(1.1);
+    }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"] {
-  width: 100%;
-  border: 2px solid #52a2da;
-  border-radius: 50px;
-  margin: 0 0 15px;
-  padding: 10px;
-}
+    .lightbox {
+    	position: absolute;
+    	display: none;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 100%;
+    	color: white;
+    	background-color: rgba(0,0,0,0.85);
+    }
 
-#contact textarea{
-  width: 100%;
-  border: 2px solid #52a2da;
-  border-radius: 20px;
-  padding: 10px;
-}
+    .close-lightbox{
+    	float: right;
+    	margin-right: 18px;
+    	margin-top: 12px;
+    	font-size: 2em;
+    	cursor: pointer;
+    }
 
-#contact fieldset{
-  width: 100%;
-}
+    .lightbox-img{
+    	display: block;
+    	width: 600px;
+    	margin: 0 auto;
+    	margin-top: 80px;
+    	border: 10px solid grey;
+    	border-radius: 5px;
+    }
 
-#contact textarea {
-  height: 200px;
-  max-width: 100%;
-  resize: none;
-}
+    .lightbox p{
+    	text-align: center;
+    }
 
-fieldset {
-  border: none;
-  margin: 0 0 10px;
-  min-width: 100%;
-  padding: 0;
-  width: 100%;
-}
+    .lightbox h1{
+    	text-align: center;
+    }
 
-fieldset input{
-  font-size: 18px;
-}
+    #close{
+    	transition: color 0.3s ease-in;
+    	transition: transform 0.2s ease-in;
+    }
 
-fieldset textarea{
-  font-size: 18px;
-}
+    #close:hover{
+    	color: grey;
+    	transform: rotate(-90deg);
+      /*-webkit-transform: rotate(-45deg);*/
+    }
+    /* Gallery ends */
 
-#contact button {
-  cursor: pointer;
-  width: 30%;
-  border: none;
-  background: #52a2da;
-  color: #FFF;
-  padding: 8px;
-  font-size: 15px;
-  border-radius: 20px;
-}
 
-#contact button:hover{
-  background: white;
-  color: #52a2da;
-  transition: 0.5s;
-}
+    /*contact starts */
+    .Concontainer {
+      max-width: 360px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
 
-/*contact ends */
+    .contactHeader{
+      text-align: center;
+      font-size: 26px;
+    }
+
+    #contact {
+      background: #e5e5e5;
+      padding: 18px;
+      margin-top: 50px;
+      border: 2px solid #52a2da;
+      border-radius: 20px;
+    }
+
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact input[type="tel"] {
+      width: 100%;
+      border: 2px solid #52a2da;
+      border-radius: 50px;
+      margin: 0 0 15px;
+      padding: 10px;
+    }
+
+    #contact textarea{
+      width: 100%;
+      border: 2px solid #52a2da;
+      border-radius: 20px;
+      padding: 10px;
+    }
+
+    #contact fieldset{
+      width: 100%;
+    }
+
+    #contact textarea {
+      height: 200px;
+      max-width: 100%;
+      resize: none;
+    }
+
+    fieldset {
+      border: none;
+      margin: 0 0 10px;
+      min-width: 100%;
+      padding: 0;
+      width: 100%;
+    }
+
+    fieldset input{
+      font-size: 18px;
+    }
+
+    fieldset textarea{
+      font-size: 18px;
+    }
+
+    #contact button {
+      cursor: pointer;
+      width: 30%;
+      border: none;
+      background: #52a2da;
+      color: #FFF;
+      padding: 8px;
+      font-size: 15px;
+      border-radius: 20px;
+    }
+
+    #contact button:hover{
+      background: white;
+      color: #52a2da;
+      transition: 0.5s;
+    }
+
+    /*contact ends */
 
 }
 

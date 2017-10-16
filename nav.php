@@ -5,7 +5,10 @@
     <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
     <title>Portfolio Coming Soon!</title>
   <!-- <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"> -->
+  <link href='http://fonts.googleapis.com/css?family=Mystery+Quest' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/lightbox.css" type="text/css">
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
 </head>
 <body>

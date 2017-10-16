@@ -7,7 +7,7 @@
   <img class="profile" src="images/jake_portfolio.jpg" alt="">
 
   <h2>Earlier Life</h2>
-  <p>Lorem ipsum dolor sit amet, et penatibus magna. Cupiditate molestie dolor. Sed amet nec, quis wisi,
+  <p class="info">Lorem ipsum dolor sit amet, et penatibus magna. Cupiditate molestie dolor. Sed amet nec, quis wisi,
     natoque vitae. Velit augue auctor lacinia vivamus, elit erat morbi id magna sit vestibulum. Tempus et
     cras etiam, nascetur vestibulum nostra amet. Et at ut pede arcu lacus, turpis ante wisi posuere lorem
     tristique pellentesque, purus non labore wisi. Ac maecenas aliquam. Nunc aliquam aenean vel urna aliquam,
@@ -17,7 +17,7 @@ Mauris lacus eu proin mauris, donec neque tellus nunc in praesent diam, pede aen
  elementum egestas pellentesque. Odio nec, odio mi consequat vel aliquam nunc, quod et nunc justo.</p>
 
  <h2>Education</h2>
- <p>Lorem ipsum dolor sit amet, et penatibus magna. Cupiditate molestie dolor. Sed amet nec, quis wisi,
+ <p class="info">Lorem ipsum dolor sit amet, et penatibus magna. Cupiditate molestie dolor. Sed amet nec, quis wisi,
    natoque vitae. Velit augue auctor lacinia vivamus, elit erat morbi id magna sit vestibulum. Tempus et
    cras etiam, nascetur vestibulum nostra amet. Et at ut pede arcu lacus, turpis ante wisi posuere lorem
    tristique pellentesque, purus non labore wisi. Ac maecenas aliquam. Nunc aliquam aenean vel urna aliquam,
