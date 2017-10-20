@@ -6,6 +6,11 @@
   <h1 class="liljake">A lil' Bout Jake</h1>
   <img class="profile" src="images/jake_portfolio.jpg" alt="">
 
+
+  <div class="top">
+    <h1>Top</h1>
+  </div>
+
   <h2>Earlier Life</h2>
   <p class="info">Lorem ipsum dolor sit amet, et penatibus magna. Cupiditate molestie dolor. Sed amet nec, quis wisi,
     natoque vitae. Velit augue auctor lacinia vivamus, elit erat morbi id magna sit vestibulum. Tempus et
@@ -26,3 +31,9 @@ Mauris lacus eu proin mauris, donec neque tellus nunc in praesent diam, pede aen
 eu quis duis imperdiet est quis. Sit neque. Nunc iusto integer pellentesque, faucibus nisl volutpat, pede
 elementum egestas pellentesque. Odio nec, odio mi consequat vel aliquam nunc, quod et nunc justo.</p>
 </div>
+
+<script src="js/contentObject.js"></script>
+<script src="js/main.js"></script>
+<script src="js/top.js"></script>
+</body>
+</html>

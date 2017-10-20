@@ -3,9 +3,13 @@
  ?>
 
  <body>
- 	<section>
- 		<div id="lightbox"></div>
- 	</section>
+   <section class="buttons">
+   		<button class="image-holder" id="spring">Spring</button>
+   		<button class="image-holder" id="lightboxTwo">Summer</button>
+   		<button class="image-holder" id="lightboxThree">Autumn</button>
+   		<button class="image-holder" id="lightboxFour">Winter</button>
+   	</section>
+
 
  	<ul class="subImagesContainer"></ul>
  	<section class="lightbox">
@@ -15,9 +19,14 @@
  		<p class="img-desc">placeholder copy</p>
  	</section>
 
+  <div class="top">
+    <h1>Top</h1>
+  </div>
+
 
  	<!-- add script files here -->
  	<script src="js/contentObject.js"></script>
  	<script src="js/main.js"></script>
+  <script src="js/top.js"></script>
  </body>
  </html>
