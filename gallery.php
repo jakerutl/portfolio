@@ -12,6 +12,7 @@
 
 
  	<ul class="subImagesContainer"></ul>
+  
  	<section class="lightbox">
  		<i id="close" class="fa fa-times close-lightbox"></i>
  		<img src="" alt="feature image" class="lightbox-img">

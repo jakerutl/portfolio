@@ -4,14 +4,14 @@
 
 
   function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 1000) {
+      if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 400) {
           document.querySelector(".top").style.display = "block";
       } else {
           document.querySelector(".top").style.display = "none";
       }
   }
 
-
+//
 function moveTop(){
   window.scrollTo(0,0);
 };

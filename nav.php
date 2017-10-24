@@ -38,11 +38,12 @@
     <li><a href="gallery.php">PORTFOLIO</a></li>
     <li><a href="contact.php">CONTACT</a></li>
   </ul>
-<!-- <div class="personalP">
-  <h2>Personal Phone: 226-378-7162</h2>
-</div> -->
 
-  <h2 class="myCell">Personal Phone: 226-378-7162</h2>
+ <div class="social">
+  <a href="https://twitter.com/Jaker145"><img src="images/t_logo.png" alt="twitter logo"></a>
+  <a href="https://www.facebook.com/jake.rutledge.10"><img src="images/fb_logo.png" alt="facebook logo"></a>
+  <a href="https://www.instagram.com/jaker145/?hl=en"><img src="images/in_logo.png" alt="instagram logo"></a>
+ </div>
 </div>
 
 <div class="hamburger">

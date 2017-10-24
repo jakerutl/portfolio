@@ -70,6 +70,7 @@
     //debugger;
 
     lightbox.style.display = 'none'; //turns lightbox off
+    window.addEventListener = 'touchmove';
     document.body.style.overflow = "auto";//turns scrolling back on
     lightbox.querySelector('img').src = "";//resets image
     lightbox.querySelector('p').innerHTML = ""; //resets desc
@@ -80,6 +81,5 @@
  }
 
 // document.querySelector('#spring').click(); one way to get it to load properly
-changeElements.call(document.querySelector('#spring'));
-
+changeElements.call(document.querySelector('#spring' ));
 })();
