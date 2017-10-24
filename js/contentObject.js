@@ -38,11 +38,11 @@ var dynamicContent = {
 			headline : "Spring",
 
 			images : [
-				"spring_1.jpg",
-				"spring_3.jpeg",
-				"spring_4.jpeg",
-				"spring_5.jpeg",
-				"spring_6.jpeg"
+				"ps_tattoo.png",
+				"ps_rose.png",
+				"ps_doth.png",
+				"ps_midterm.png",
+				"ps_background_final.png"
 			],
 
 			imageDescription : [
@@ -70,13 +70,14 @@ var dynamicContent = {
 			headline : "Spring",
 
 			images : [
-				"spring_1.jpg",
-				"spring_3.jpeg",
-				"spring_4.jpeg"
+				"ai_harley.png",
+				"ai_spidey.png",
+				"ai_dragon_tat.png",
+				"ai_portrait.png"
 			],
 
 			imageDescription : [
-				"As you see, there are many beautiful butterflies flying around.",
+				"This was completed for a young boy, who requested Harley",
 				"Have you ever seen a baby duck more adorable than this little fella? I didn't think so.",
 				"these are amoungst the most beautiful flowers during the spring time",
 				"Gaze at the misty beauty that is the forest",
@@ -85,8 +86,8 @@ var dynamicContent = {
 			],
 
 			imageTitle : [
-				"Butterflies",
-				"Baby Duck",
+				"Low Poly Harley Quinn",
+				"Low Poly Spider-Man",
 				"Flowers",
 				"Sunset Forest",
 				"Wedding Destination",

@@ -4,15 +4,15 @@
 
  <body>
    <section class="buttons">
-   		<button class="image-holder" id="spring">Spring</button>
-   		<button class="image-holder" id="lightboxTwo">Summer</button>
-   		<button class="image-holder" id="lightboxThree">Autumn</button>
-   		<button class="image-holder" id="lightboxFour">Winter</button>
+   		<button class="image-holder" id="spring">Design</button>
+   		<button class="image-holder" id="lightboxTwo">Photoshop</button>
+   		<button class="image-holder" id="lightboxThree">Illustrator</button>
+   		<button class="image-holder" id="lightboxFour">3D</button>
    	</section>
 
 
  	<ul class="subImagesContainer"></ul>
-  
+
  	<section class="lightbox">
  		<i id="close" class="fa fa-times close-lightbox"></i>
  		<img src="" alt="feature image" class="lightbox-img">
