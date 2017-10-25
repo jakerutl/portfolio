@@ -49,7 +49,7 @@
    //debugger;
    //move the window to the top every time we click - quick fix
    window.scrollTo(0,0);
-   window.removeEventlistener = 'touchmove';
+   document.ontouchmove = function(e){ e.preventDefault(); }
    document.body.style.overflow = "hidden";
 
 //trigger the lightbox overlay so that we can see it!
@@ -69,8 +69,8 @@
     //reset everything, close the lightbox
     //debugger;
 
+    document.ontouchmove = function(e){ return true; }
     lightbox.style.display = 'none'; //turns lightbox off
-    window.addEventListener = 'touchmove';
     document.body.style.overflow = "auto";//turns scrolling back on
     lightbox.querySelector('img').src = "";//resets image
     lightbox.querySelector('p').innerHTML = ""; //resets desc
