@@ -8,7 +8,7 @@
 
 
   <div class="top">
-    <h1>Top</h1>
+    <div class="arrow"></div>
   </div>
 
   <h2>Earlier Life</h2>

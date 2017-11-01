@@ -9,11 +9,13 @@
 <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
 </head>
 <body bgcolor="#4487CC">
-  <div class="homeLogo">
-<img src="images/new_logo.png" alt="logo">
+
+<div class="homeLogo">
+   <img src="images/jr.png" alt="logo">
 </div>
 
 <h1 class="message">Jake's Portfolio will be available by the end of October</h1>
+
 
 </body>
 </html>

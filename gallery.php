@@ -4,7 +4,7 @@
 
  <body>
    <section class="buttons">
-   		<button class="image-holder" id="spring">Design</button>
+   		<button class="image-holder" id="spring">After Effects</button>
    		<button class="image-holder" id="lightboxTwo">Photoshop</button>
    		<button class="image-holder" id="lightboxThree">Illustrator</button>
    		<button class="image-holder" id="lightboxFour">3D</button>
@@ -21,7 +21,7 @@
  	</section>
 
   <div class="top">
-    <h1>Top</h1>
+    <div class="arrow"></div>
   </div>
 
 

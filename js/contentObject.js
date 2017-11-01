@@ -46,21 +46,20 @@ var dynamicContent = {
 			],
 
 			imageDescription : [
-				"As you see, there are many beautiful butterflies flying around.",
+				"This is an assignment that required the students to design a tattoo in photoshop/illustrator and photoshop it onto our bodies.",
 				"Have you ever seen a baby duck more adorable than this little fella? I didn't think so.",
-				"these are amoungst the most beautiful flowers during the spring time",
-				"Gaze at the misty beauty that is the forest",
+				"This was a group project were a team of three was required to design a landing page for a fictional movie.",
+				"This is a poster of a retouched model with an illustrator created beauty product.",
 				"This is the perfect place to bring that special someone",
 				"Get lost in this mirror perfect reflection"
 			],
 
 			imageTitle : [
-				"Butterflies",
-				"Baby Duck",
-				"Flowers",
-				"Sunset Forest",
-				"Wedding Destination",
-				"Reflective Lake"
+				"Photoshop Tattoo",
+				"Derrick Rose",
+				"Dot on the Horizon",
+				"Oasis",
+				"Lord of the Rings landing page"
 			]
 		},
 
@@ -101,8 +100,10 @@ var dynamicContent = {
 			headline : "Spring",
 
 			images : [
-				"spring_1.jpg",
-				"spring_3.jpeg"
+				"c4_midterm.png",
+				"c4_hotel.png",
+				"c4_wine.png",
+				"c4_makeup.jpg"
 			],
 
 			imageDescription : [
