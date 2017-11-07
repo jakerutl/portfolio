@@ -13,8 +13,9 @@
   <link rel="stylesheet" href="css/main.css" type="text/css">
   <link rel="stylesheet" href="css/lightbox.css" type="text/css">
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js" charset="utf-8"></script>
 </head>
-<body>
+<body id="navB">
 
 <nav>
   <div class="navigation">
@@ -23,6 +24,7 @@
       <li><a href="about.php">ABOUT ME</a></li>
       <li><a href="gallery.php">PORTFOLIO</a></li>
       <li><a href="contact.php">CONTACT</a></li>
+      <li><a href="resume.pdf">RESUME</a></li>
       <img class="headerLogo" src="images/jr.png" alt="logo">
     </ul>
   </div>
@@ -38,6 +40,7 @@
     <li><a href="index.php">HOME</a></li>
     <li><a href="about.php">ABOUT ME</a></li>
     <li><a href="gallery.php">PORTFOLIO</a></li>
+    <li><a href="resume.pdf">RESUME</a></li>
     <li><a href="contact.php">CONTACT</a></li>
   </ul>
 
@@ -60,10 +63,10 @@
 
 <script>
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.querySelector("#mySidenav").style.width = "250px";
 }
 
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.querySelector("#mySidenav").style.width = "0";
 }
 </script>

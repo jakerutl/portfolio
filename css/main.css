@@ -219,6 +219,49 @@ transition: 0.5s;
 
 @media only screen and (max-width: 768px) {
 
+
+  /*home screen Nav starts*/
+
+  .homePageNav{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .homePageNav ul li {
+    display: block;
+  }
+
+  .homePageNav ul li a{
+    margin-bottom: 15px;
+    padding: 8px 8px 8px 32px;
+    padding: 8px;
+    border-radius: 25px;
+    border: solid white;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    background: #4487CC;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+
+  .homePageNav ul li :hover{
+    color: #4487CC;
+    background: white;
+  }
+
+  .homePageNav ul li a :hover{
+    color: #4487CC;
+    background: white;
+  }
+
+  /*home screen Nav ends*/
+
 /* nav starts */
     .navigation{
       display: none;
@@ -556,7 +599,7 @@ transition: 0.5s;
     }
 
     /*contact ends */
-    body {
+    #navB {
       background-image: url(../images/background.jpg) ;
       background-position: center center;
       background-repeat:  no-repeat;
@@ -578,7 +621,8 @@ transition: 0.5s;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased; }
 
-body {
+
+#navB {
   background-image: url(../images/background.jpg) ;
   background-position: center center;
   background-repeat:  no-repeat;
@@ -589,3 +633,10 @@ body {
   font-weight: 100;
   font-size: 12px;
   line-height: 30px; }
+
+body{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px; }
+}
