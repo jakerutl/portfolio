@@ -309,7 +309,7 @@ fieldset textarea{
 }
 
 .buttons{
-width: 327px;
+width: 335px;
 /*padding-top: 100px;*/
 margin: 0 auto;
 margin-bottom: 20px;
@@ -319,16 +319,17 @@ button{
 cursor: pointer;
 /*width: 20%;*/
 border: none;
-background: #52a2da;
-color: #FFF;
+background: transparent;
+color: #52a2da;
+border: 1px solid #52a2da;
 padding: 8px;
 font-size: 15px;
 border-radius: 20px;
 }
 
 .buttons button:hover{
-background: white;
-color: #52a2da;
+background: #52a2da;
+color: white;
 transition: 0.5s;
 }
 /*gallery ends*/
@@ -651,7 +652,7 @@ body{
 
     /* Gallery starts */
     .buttons{
-    width: 327px;
+    width: 335px;
     margin: 0 auto;
     /*margin-top: 50px;*/
     margin-bottom: 20px;
@@ -659,18 +660,18 @@ body{
 
   button{
   	cursor: pointer;
-  	/*width: 20%;*/
   	border: none;
-  	background: #52a2da;
-  	color: #FFF;
+  	background: transparent;
+  	color: #52a2da;
+    border: 1px solid #52a2da;
   	padding: 8px;
   	font-size: 15px;
   	border-radius: 20px;
   }
 
   .buttons button:hover{
-  	background: white;
-  	color: #52a2da;
+  	background: #52a2da;
+  	color: white;
   	transition: 0.5s;
   }
 
