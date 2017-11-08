@@ -46,7 +46,7 @@
 
  <div class="social">
   <a href="https://twitter.com/Jaker145"><img src="images/t_logo.png" alt="twitter logo"></a>
-  <a href="https://www.facebook.com/jake.rutledge.10"><img src="images/fb_logo.png" alt="facebook logo"></a>
+  <a href="https://www.facebook.com/jake.rutledge.10"><img id="fb" src="images/fb_logo.png" alt="facebook logo"></a>
   <a href="https://www.instagram.com/jaker145/?hl=en"><img src="images/in_logo.png" alt="instagram logo"></a>
  </div>
 </div>

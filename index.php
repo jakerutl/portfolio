@@ -19,9 +19,9 @@
 <nav>
   <div class="homePageNav">
     <ul>
-      <li><a href="gallery.php">PORTFOLIO</a></li>
-      <li><a href="contact.php">CONTACT</a></li>
-      <li><a href="resume.pdf">RESUME</a></li>
+      <li><a id="port" href="gallery.php">PORTFOLIO</a></li>
+      <li><a id="con" href="contact.php">CONTACT</a></li>
+      <li><a id="res" href="resume.pdf">RESUME</a></li>
     </ul>
   </div>
 </nav>

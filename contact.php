@@ -4,8 +4,8 @@
 
 
  <div class="Concontainer">
-
- <h2 class="contactHeader">Want to hire me? Contact me!</h2>
+<h1 class="contactTitle"> Let's Have a talk!</h1>
+ <h2 class="contactHeader">Fill out the information below and leave me an email!</h2>
 
    <form id="contact" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
  <?php
@@ -51,6 +51,9 @@
    </form>
  </div>
 
+ <?php
+   require 'lowernav.php';
+  ?>
 
  </body>
  </html>

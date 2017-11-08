@@ -36,6 +36,49 @@ transition: all 0.3s ease;
   opacity: 1;
 }
 
+/*home screen Nav starts*/
+
+.homePageNav{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.homePageNav ul li {
+  display: block;
+}
+
+.homePageNav ul li a{
+  margin-bottom: 15px;
+  padding: 8px 8px 8px 32px;
+  padding: 8px;
+  border-radius: 25px;
+  border: solid white;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  background: #4487CC;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.homePageNav ul li :hover{
+  color: #4487CC;
+  background: white;
+}
+
+.homePageNav ul li a :hover{
+  color: #4487CC;
+  background: white;
+}
+
+/*home screen Nav ends*/
+
+
 .homeLogo{
   width: 100px;
   margin: 0 auto;
@@ -97,13 +140,96 @@ transition: all 0.3s ease;
   text-align: center;
 }
 
-/*.buttons{
-width: 280px;
-margin: 0 auto;
-padding-top: 50px;
 
-margin-bottom: 20px;
-}*/
+/*contact starts */
+.Concontainer {
+  max-width: 660px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.contactTitle{
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.contactHeader{
+  text-align: center;
+  font-size: 16px;
+}
+
+#contact {
+  background: transparent;
+  padding: 18px;
+  margin-top: 50px;
+  /*border: 2px solid #52a2da;*/
+  border-radius: 20px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"] {
+  width: 100%;
+  border: 2px solid #52a2da;
+  border-radius: 50px;
+  margin: 0 0 15px;
+  padding: 10px;
+}
+
+#contact textarea{
+  width: 100%;
+  border: 2px solid #52a2da;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#contact fieldset{
+  width: 100%;
+}
+
+#contact textarea {
+  height: 200px;
+  max-width: 100%;
+  resize: none;
+}
+
+fieldset {
+  border: none;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+fieldset input{
+  font-size: 18px;
+}
+
+fieldset textarea{
+  font-size: 18px;
+}
+
+#contact button {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #52a2da;
+  color: #FFF;
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+#contact button:hover{
+  background: white;
+  color: #52a2da;
+  transition: 0.5s;
+  border: 1px solid #52a2da;
+}
+
+/*contact ends */
 
 
 
@@ -119,7 +245,7 @@ margin-bottom: 20px;
   height: 180px;
   overflow: hidden;
   margin-right: 8px;
-  border: 2px solid black;
+  border: 2px solid #dcdcdc;
   border-radius: 5px;
   cursor: pointer;
   transition: opacity 0.2s ease-in;
@@ -207,6 +333,94 @@ transition: 0.5s;
 }
 /*gallery ends*/
 
+/*About me page starts*/
+
+.Aboutbody{
+  width: 960px;
+  /*height: 300px;*/
+  margin: 0 auto;
+}
+
+.profile{
+  width: 30%;
+  border-radius: 10px;
+  padding: 5px;
+  border: 3px solid #52a2da;
+  transition: all .2s ease-in;
+}
+
+.profile:hover{
+  transform: scale(1.05);
+}
+
+.liljake{
+  /*margin-top: 40px;*/
+  margin-bottom: 30px;
+  font-family: Arctic;
+}
+
+.bio{
+  width: 60%;
+  float: right;
+}
+
+.title{
+  /*margin-top: 40px;*/
+  margin-bottom: 30px;
+}
+
+.info{
+  float: right;
+  overflow: hidden;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #dcdcdc;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/*about me page ends*/
+
+/*copy rights starts*/
+
+.copy {
+  font-size: 10px;
+  position: relative;
+  margin: auto;
+  display: block;
+  left: 0;
+  right: 0;
+
+  width: 320px;
+}
+
+/*copy rights ends*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; }
+
+
+#navB {
+  /*background-image: url(../images/background.jpg) ;*/
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  /*background-color: #999;*/
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px; }
+
+body{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+}
+
 @media only screen and (min-width: 769px){
   .sidenav{
     display: none;
@@ -219,11 +433,16 @@ transition: 0.5s;
 
 @media only screen and (max-width: 768px) {
 
+  /*copy rights starts*/
+
+  /*copy rights ends*/
+
 
   /*home screen Nav starts*/
 
+
   .homePageNav{
-    width: 80%;
+    width: 300px;
     margin: 0 auto;
     margin-top: 50px;
   }
@@ -302,22 +521,33 @@ transition: 0.5s;
     }
 
   .social{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 10px;
     display: block;
-    width: 120px;
-    margin: 0 auto;
+    width: 88px;
     margin-top: 50px;
-    /*bottom: 10px;*/
+
+
   }
 
   .social img{
-    margin-right: 7px;
+    /*margin-right: 7px;*/
+    padding-left: 2px;
+    padding-right: 2px;
     width: 31px;
     cursor: pointer;
     transition: opacity 0.2s ease-in;
   }
 
+  #fb{
+    height: 30px;
+    width: 20px;
+  }
+
   .social img:hover{
-    margin-right: 7px;
     cursor: pointer;
     opacity: 0.8;
   }
@@ -375,6 +605,11 @@ transition: 0.5s;
     /* nav ends */
 
     /*About me page starts*/
+
+    .bio{
+      width: 100%;
+    }
+
     .Aboutbody{
       width: 300px;
       height: 300px;
@@ -385,7 +620,7 @@ transition: 0.5s;
       width: 100%;
       border-radius: 10px;
       padding: 5px;
-      border: 3px solid #dcdcdc;
+      border: 3px solid #52a2da;
       transition: all .2s ease-in;
     }
 
@@ -399,12 +634,13 @@ transition: 0.5s;
       font-family: Arctic;
     }
 
-    h2{
+    .title{
       margin-top: 40px;
       margin-bottom: 30px;
     }
 
     .info{
+      overflow: hidden;
       padding-bottom: 30px;
       border-bottom: 2px solid #dcdcdc;
       font-size: 16px;
@@ -525,9 +761,15 @@ transition: 0.5s;
       margin-bottom: 50px;
     }
 
-    .contactHeader{
+    .contactTitle{
       text-align: center;
       font-size: 26px;
+      margin-bottom: 15px;
+    }
+
+    .contactHeader{
+      text-align: center;
+      font-size: 16px;
     }
 
     #contact {
@@ -600,43 +842,16 @@ transition: 0.5s;
 
     /*contact ends */
     #navB {
-      background-image: url(../images/background.jpg) ;
+      /*background-image: url(../images/background.jpg) ;*/
       background-position: center center;
       background-repeat:  no-repeat;
       background-attachment: fixed;
       background-size:  cover;
-      background-color: #999;
+      /*background-color: #999;*/
       font-family: "Roboto", Helvetica, Arial, sans-serif;
       font-weight: 100;
       font-size: 12px;
       line-height: 30px;
     }
 
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased; }
-
-
-#navB {
-  background-image: url(../images/background.jpg) ;
-  background-position: center center;
-  background-repeat:  no-repeat;
-  background-attachment: fixed;
-  background-size:  cover;
-  background-color: #999;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 12px;
-  line-height: 30px; }
-
-body{
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 12px;
-  line-height: 30px; }
 }

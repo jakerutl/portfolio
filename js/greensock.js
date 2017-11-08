@@ -1,10 +1,10 @@
 (function(){
 
 var logo = document.querySelector(".homeLogo");
+var port = document.querySelector("#port");
 
 function moveLogo(){
-TweenMax.from (logo,2,{opacity:0,y:"-900px"});
-TweenMax.to (logo,3,{opacity:1});
+TweenMax.from(logo, 1.5, {opacity:0, y: -100, delay:5});
 // TweenMax.to (logo,5,{opacity:1,y:100, ease: SlowMo.easeOut, delay: 3});
 }
 
