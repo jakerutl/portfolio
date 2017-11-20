@@ -2,6 +2,7 @@
   require 'nav.php';
  ?>
 
+
  <body>
    <section class="buttons">
    		<button class="image-holder" id="spring">After Effects</button>
@@ -19,6 +20,11 @@
  	<ul class="subImagesContainer">
  	</ul>
 
+  
+  <?php
+    require 'lowernav.php';
+   ?>
+
  	<section class="lightbox">
  		<i id="close" class="fa fa-times close-lightbox"></i>
  		<img src="" alt="feature image" class="lightbox-img">
@@ -29,7 +35,6 @@
   <div class="top">
     <div class="arrow"></div>
   </div>
-
 
  	<!-- add script files here -->
  	<script src="js/contentObject.js"></script>
