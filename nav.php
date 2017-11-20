@@ -2,11 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-     <!-- <meta id="extViewportMeta" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"> -->
     <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-    <!-- <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-touch-fullscreen" content="yes"> -->
-    <title>Portfolio Coming Soon!</title>
+    <title>Jake Rutledge | Portfolio</title>
   <!-- <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"> -->
   <link href='http://fonts.googleapis.com/css?family=Mystery+Quest' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,7 +14,7 @@
 </head>
 <body id="navB">
 
-<nav>
+<nav class="navCon">
   <div class="navigation">
     <ul>
       <li><a href="index.php">HOME</a></li>
@@ -49,6 +46,14 @@
   <a href="https://www.facebook.com/jake.rutledge.10"><img id="fb" src="images/fb_logo.png" alt="facebook logo"></a>
   <a href="https://www.instagram.com/jaker145/?hl=en"><img src="images/in_logo.png" alt="instagram logo"></a>
  </div>
+</div>
+
+<div class="Stickyhamburger">
+<div onclick="openNav()">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
 </div>
 
 <div class="hamburger">

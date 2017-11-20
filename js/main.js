@@ -36,6 +36,12 @@
 
         });
 
+        theSubhead.firstChild.nodeValue = objectIndex.headline;
+
+        theSubhead.classList.add(this.id);
+
+        appliedClass =  this.id;
+
 }
 
 

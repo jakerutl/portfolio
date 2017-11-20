@@ -11,7 +11,13 @@
    	</section>
 
 
- 	<ul class="subImagesContainer"></ul>
+
+    <article class="main-copy">
+      <h2 class="catagory">after effects</h2>
+    </article>
+
+ 	<ul class="subImagesContainer">
+ 	</ul>
 
  	<section class="lightbox">
  		<i id="close" class="fa fa-times close-lightbox"></i>

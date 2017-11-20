@@ -1,39 +1,36 @@
 var dynamicContent = {
 		spring : {
 
-			headline : "Spring",
+			headline : "After Effects",
 
 			images : [
-				"spring_1.jpg",
-				"spring_2.jpg",
-				"spring_3.jpeg",
-				"spring_4.jpeg",
-				"spring_5.jpeg",
-				"spring_6.jpeg"
+				"ps_tattoo.png",
+				"ps_rose.png",
+				"ps_doth.png",
+				"ps_midterm.png",
+				"ps_background_final.png"
 			],
 
 			imageDescription : [
-				"As you see, there are many beautiful butterflies flying around.",
-				"Have you ever seen a baby duck more adorable than this little fella? I didn't think so.",
-				"these are amoungst the most beautiful flowers during the spring time",
-				"Gaze at the misty beauty that is the forest",
-				"This is the perfect place to bring that special someone",
-				"Get lost in this mirror perfect reflection"
+				"This is an assignment that required the students to design a tattoo in photoshop/illustrator and photoshop it onto our bodies.",
+				"We had to recreate a poster staring Derrick Rose.",
+				"This was a group project were a team of three was required to design a landing page for a fictional movie.",
+				"This is a poster of a retouched model with an illustrator created beauty product.",
+				"This was a landing page created for a final project for the Lord of the Rings movies."
 			],
 
 			imageTitle : [
-				"Butterflies",
-				"Baby Duck",
-				"Flowers",
-				"Sunset Forest",
-				"Wedding Destination",
-				"Reflective Lake"
+				"Photoshop Tattoo",
+				"Derrick Rose",
+				"Dot on the Horizon",
+				"Oasis",
+				"Lord of the Rings landing page"
 			]
 		},
 
 		lightboxTwo: {
 
-			headline : "Spring",
+			headline : "Photoshop",
 
 			images : [
 				"ps_tattoo.png",
@@ -62,7 +59,7 @@ var dynamicContent = {
 
 		lightboxThree: {
 
-			headline : "Spring",
+			headline : "Illustrator",
 
 			images : [
 				"ai_harley.png",
@@ -90,7 +87,7 @@ var dynamicContent = {
 
 		lightboxFour: {
 
-			headline : "Spring",
+			headline : "3D",
 
 			images : [
 				"c4_midterm.png",
