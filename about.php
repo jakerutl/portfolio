@@ -4,7 +4,7 @@
 
 <div class="Aboutbody">
   <h1 class="liljake">A lil' Bout Jake</h1>
-  <img class="profile" src="images/jake_portfolio.jpg" alt="">
+  <img class="profile" src="images/low_poly_portrait2.png" alt="">
 
 
   <div class="top">
@@ -22,20 +22,7 @@ Mauris lacus eu proin mauris, donec neque tellus nunc in praesent diam, pede aen
  <p class="info">Lorem ipsum dolor sit amet, et penatibus magna. Cupiditate molestie dolor. Sed amet nec, quis wisi,
    natoque vitae. Velit augue auctor lacinia vivamus, elit erat morbi id magna sit vestibulum. Tempus et
    cras etiam, nascetur vestibulum nostra amet. </p>
-   <h2 class="title">Education</h2>
-   <p class="info">Lorem ipsum dolor sit amet, et penatibus magna. Cupiditate molestie dolor. Sed amet nec, quis wisi,
-     natoque vitae. Velit augue auctor lacinia vivamus, elit erat morbi id magna sit vestibulum. Tempus et
-     cras etiam, nascetur vestibulum nostra amet. </p>
 
-     <h2 class="title">Education</h2>
-     <p class="info">Lorem ipsum dolor sit amet, et penatibus magna. Cupiditate molestie dolor. Sed amet nec, quis wisi,
-       natoque vitae. Velit augue auctor lacinia vivamus, elit erat morbi id magna sit vestibulum. Tempus et
-       cras etiam, nascetur vestibulum nostra amet. </p>
-
-       <h2 class="title">Education</h2>
-       <p class="info">Lorem ipsum dolor sit amet, et penatibus magna. Cupiditate molestie dolor. Sed amet nec, quis wisi,
-         natoque vitae. Velit augue auctor lacinia vivamus, elit erat morbi id magna sit vestibulum. Tempus et
-         cras etiam, nascetur vestibulum nostra amet. </p>
 
 
 </div>

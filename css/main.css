@@ -192,6 +192,7 @@ transition: all 0.3s ease;
   margin-bottom: 20px;
   float: left;
   background-color: white;
+  border-bottom: 1px solid #2d2d2d;
 }
 
 .navigation{
@@ -218,7 +219,7 @@ transition: all 0.3s ease;
 }
 
 .navigation ul li a:hover{
-  color: #FCD000;
+  color: #2d2d2d;
 }
 .whatsup{
   text-align: center;
@@ -417,7 +418,7 @@ color: #52a2da;
 border: 1px solid #52a2da;
 padding: 8px;
 font-size: 15px;
-border-radius: 20px;
+border-radius: 0px;
 }
 
 .buttons button:hover{
@@ -473,6 +474,12 @@ transition: 0.5s;
   font-size: 16px;
 }
 
+
+#name{
+  width: 30%;
+  float: left;
+}
+
 /*about me page ends*/
 
 /*copy rights starts*/
@@ -498,7 +505,7 @@ transition: 0.5s;
 
 
 #navB {
-  /*background-image: url(../images/background.jpg) ;*/
+  background-image: url(../images/background.jpg) ;
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
@@ -507,7 +514,8 @@ transition: 0.5s;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 12px;
-  line-height: 30px; }
+  line-height: 30px;
+}
 
 body{
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -525,9 +533,7 @@ body{
     display: none;
   }
 
-  /*.buttons{
-    display: none;
-  }*/
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -785,7 +791,7 @@ body{
     border: 1px solid #52a2da;
   	padding: 8px;
   	font-size: 15px;
-  	border-radius: 20px;
+  	border-radius: 0px;
   }
 
   .buttons button:hover{

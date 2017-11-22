@@ -17,10 +17,10 @@
       <h2 class="catagory">after effects</h2>
     </article>
 
- 	<ul class="subImagesContainer">
- 	</ul>
+ 	<ul class="subImagesContainer"></ul>
 
-  
+
+
   <?php
     require 'lowernav.php';
    ?>

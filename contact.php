@@ -5,7 +5,7 @@
 
  <div class="Concontainer">
 <h1 class="contactTitle"> Let's talk!</h1>
- <h2 class="contactHeader">Fill out the information below and leave me an email!</h2>
+ <h2 class="contactHeader">Fill out the information below and send me an email!</h2>
 
    <form id="contact" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
  <?php
