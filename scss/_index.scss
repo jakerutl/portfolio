@@ -1,0 +1,39 @@
+.homePageNav{
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 200px;
+  @include bp (mobile){
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  ul li {
+    display: block;
+    &:hover{
+      color: #4487CC;
+      background: white;
+    }
+
+    a{
+      margin-bottom: 15px;
+      padding: 8px 8px 8px 32px;
+      padding: 8px;
+      border-radius: 25px;
+      border: 2px solid #4487CC;
+      text-align: center;
+      list-style-type: none;
+      text-decoration: none;
+      font-size: 25px;
+      color: #4487CC;
+      display: block;
+      background: transparent;
+      font-size: 15px;
+      font-weight: bold;
+      transition: 0.5s;
+      &:hover{
+        color: white;
+        background: #4487CC;
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+/*About me page starts*/
+
+.Aboutbody{
+  width: 960px;
+  /*height: 300px;*/
+  margin: 0 auto;
+  padding-top: 150px;
+  @include bp(mobile) {
+    width: 300px;
+    // height: 300px;
+    margin: 0 auto;
+    padding-top: 0;
+  }
+
+
+  .profile{
+
+    @include bp(mobile) {
+      width: 100%;
+      /*border-radius: 10px;*/
+      padding: 5px;
+      border: 1px solid #2d2d2d;
+      transition: all .2s ease-in;
+    }
+
+    width: 30%;
+    /*border-radius: 10px;*/
+    padding: 5px;
+    border: 1px solid #2d2d2d;
+    transition: all .2s ease-in;
+    &:hover{
+      transform: scale(1.05);
+    }
+
+  }
+
+  .liljake{
+    @include bp(mobileup){
+      display: none;
+    }
+    @include bp(mobile) {
+      margin-top: 40px;
+      margin-bottom: 60px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+  }
+
+  .bio{
+    width: 60%;
+    float: right;
+    @include bp(mobile) {
+      width: 100%;
+    }
+  }
+
+  .title{
+    /*margin-top: 40px;*/
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    @include bp(mobile){
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .info{
+    float: right;
+    overflow: hidden;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #dcdcdc;
+    margin-bottom: 20px;
+    font-size: 16px;
+    @include bp(mobile){
+      overflow: hidden;
+      padding-bottom: 30px;
+      border-bottom: 2px solid #dcdcdc;
+      font-size: 16px;
+    }
+  }
+
+
+  #name{
+    width: 30%;
+    float: left;
+  }
+
+}
+
+#SVG{
+  // position: fixed;
+  margin-top: 100px;
+  margin-bottom: 600px;
+  width: 300px;
+}
+
+
+/*about me page ends*/

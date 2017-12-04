@@ -7,7 +7,7 @@
   <!-- <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"> -->
   <link href='http://fonts.googleapis.com/css?family=Mystery+Quest' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/lightbox.css" type="text/css">
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js" charset="utf-8"></script>
@@ -17,10 +17,10 @@
 <nav class="navCon">
   <div class="navigation">
     <ul>
-      <li><a href="index.php">HOME</a></li>
-      <li><a href="about.php">ABOUT ME</a></li>
-      <li><a href="gallery.php">PORTFOLIO</a></li>
-      <li><a href="contact.php">CONTACT</a></li>
+      <li><a class="home" href="#">HOME</a></li>
+      <li><a class="about" href="#">ABOUT ME</a></li>
+      <li><a class="port" href="#">PORTFOLIO</a></li>
+      <li><a class="contact" href="#">CONTACT</a></li>
       <li><a href="resume.pdf">RESUME</a></li>
       <img class="headerLogo" src="images/jr.png" alt="logo">
     </ul>
@@ -36,7 +36,7 @@
     <li><a href="#" class="closebtn" onclick="closeNav()">&times;</a></li>
     <li><a href="index.php">HOME</a></li>
     <li><a href="about.php">ABOUT ME</a></li>
-    <li><a href="gallery.php">PORTFOLIO</a></li>
+    <li><a class="port2" href="#">PORTFOLIO</a></li>
     <li><a href="resume.pdf">RESUME</a></li>
     <li><a href="contact.php">CONTACT</a></li>
   </ul>

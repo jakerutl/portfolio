@@ -1,6 +1,5 @@
-<?php
-  require 'nav.php';
- ?>
+
+<?php require 'nav.php'; ?>
 
 
  <div class="Concontainer">
@@ -28,7 +27,7 @@
    }
   ?>
      <fieldset>
-       <input placeholder="Name..." type="text" tabindex="1" name="name" required autofocus>
+       <input placeholder="Name..." type="text" tabindex="1" name="name" required>
 
      </fieldset>
 
