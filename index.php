@@ -16,16 +16,9 @@
    <img src="images/jr.png" alt="logo">
 </div>
 
-
-<nav>
-  <div class="homePageNav">
-    <ul>
-      <li><a id="port" href="gallery.php">PORTFOLIO</a></li>
-      <li><a id="con" href="contact.php">CONTACT</a></li>
-      <li><a id="res" href="resume.pdf">RESUME</a></li>
-    </ul>
-  </div>
-</nav>
+ <!-- <div class="Soon">
+<h1>Coming Soon!</h1>
+ </div> -->
 
 <!-- <h1 class="message">Jake's Portfolio will be available by the end of October</h1> -->
 

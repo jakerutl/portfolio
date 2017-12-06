@@ -81,28 +81,29 @@ table {
 /*About me page starts*/
 .Aboutbody {
   width: 960px;
-  /*height: 300px;*/
   margin: 0 auto;
-  padding-top: 150px; }
+  padding-top: 150px;
+  padding-bottom: 400px;
+  display: block; }
   @media (max-width: 768px) {
     .Aboutbody {
-      width: 300px;
+      width: 100%;
       margin: 0 auto;
       padding-top: 0; } }
-  .Aboutbody .profile {
+  .Aboutbody .pic img {
     width: 30%;
-    /*border-radius: 10px;*/
     padding: 5px;
     border: 1px solid #2d2d2d;
-    transition: all .2s ease-in; }
+    transition: all .2s ease-in;
+    float: left; }
     @media (max-width: 768px) {
-      .Aboutbody .profile {
+      .Aboutbody .pic img {
         width: 100%;
-        /*border-radius: 10px;*/
-        padding: 5px;
-        border: 1px solid #2d2d2d;
-        transition: all .2s ease-in; } }
-    .Aboutbody .profile:hover {
+        padding: 0;
+        border: none;
+        transition: all .2s ease-in;
+        margin-bottom: 50px; } }
+    .Aboutbody .pic img:hover {
       transform: scale(1.05); }
   @media (min-width: 769px) {
     .Aboutbody .liljake {
@@ -111,18 +112,22 @@ table {
     .Aboutbody .liljake {
       margin-top: 40px;
       margin-bottom: 60px;
+      margin-left: 20px;
       font-size: 28px;
       font-weight: bold; } }
   .Aboutbody .bio {
     width: 60%;
-    float: right; }
+    float: right;
+    margin-bottom: 50px; }
     @media (max-width: 768px) {
       .Aboutbody .bio {
-        width: 100%; } }
+        width: 300px;
+        float: none;
+        margin: 0 auto; } }
   .Aboutbody .title {
     /*margin-top: 40px;*/
     margin-bottom: 30px;
-    font-size: 18px;
+    font-size: 36px;
     font-weight: bold; }
     @media (max-width: 768px) {
       .Aboutbody .title {
@@ -131,24 +136,15 @@ table {
   .Aboutbody .info {
     float: right;
     overflow: hidden;
-    padding-bottom: 30px;
-    border-bottom: 2px solid #dcdcdc;
     margin-bottom: 20px;
-    font-size: 16px; }
+    font-size: 24px; }
     @media (max-width: 768px) {
       .Aboutbody .info {
         overflow: hidden;
-        padding-bottom: 30px;
-        border-bottom: 2px solid #dcdcdc;
         font-size: 16px; } }
   .Aboutbody #name {
     width: 30%;
     float: left; }
-
-#SVG {
-  margin-top: 100px;
-  margin-bottom: 600px;
-  width: 300px; }
 
 /*about me page ends*/
 /*contact starts */
@@ -175,6 +171,20 @@ table {
       padding-top: 15px;
       font-weight: bold; } }
 
+.greyBox {
+  width: 100%;
+  height: 40px;
+  background-color: #2d2d2d;
+  margin-bottom: 45px;
+  overflow: hidden; }
+
+#conTitle {
+  color: white;
+  line-height: 40px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold; }
+
 .contactHeader {
   text-align: center;
   font-size: 16px; }
@@ -182,7 +192,7 @@ table {
 #contact {
   background: transparent;
   padding: 18px;
-  margin-top: 50px;
+  margin-top: 30px;
   /*border: 2px solid #52a2da;*/
   border-radius: 20px; }
   #contact input[type="text"],
@@ -248,6 +258,13 @@ table {
     .catagory {
       width: 80%;
       font-weight: bold; } }
+
+#portTitle {
+  color: white;
+  line-height: 40px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold; }
 
 .thumb {
   width: 320px;

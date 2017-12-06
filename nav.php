@@ -18,9 +18,9 @@
   <div class="navigation">
     <ul>
       <li><a class="home" href="#">HOME</a></li>
-      <li><a class="about" href="#">ABOUT ME</a></li>
-      <li><a class="port" href="#">PORTFOLIO</a></li>
-      <li><a class="contact" href="#">CONTACT</a></li>
+      <li><a class="about" href="#1">ABOUT ME</a></li>
+      <li><a class="port" href="#2">PORTFOLIO</a></li>
+      <li><a class="contact" href="#3">CONTACT</a></li>
       <li><a href="resume.pdf">RESUME</a></li>
       <img class="headerLogo" src="images/jr.png" alt="logo">
     </ul>
@@ -35,10 +35,10 @@
   <ul>
     <li><a href="#" class="closebtn" onclick="closeNav()">&times;</a></li>
     <li><a href="index.php">HOME</a></li>
-    <li><a href="about.php">ABOUT ME</a></li>
-    <li><a class="port2" href="#">PORTFOLIO</a></li>
+    <li><a onclick="closeNav()" href="#1">ABOUT ME</a></li>
+    <li><a class="port2" onclick="closeNav()" href="#2">PORTFOLIO</a></li>
     <li><a href="resume.pdf">RESUME</a></li>
-    <li><a href="contact.php">CONTACT</a></li>
+    <li><a class="contact2" onclick="closeNav()"href="#3">CONTACT</a></li>
   </ul>
 
  <div class="social">

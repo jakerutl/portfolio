@@ -2,10 +2,12 @@
 
   var top = document.querySelector('.top');
   var sticky = document.querySelector('.Stickyhamburger');
-  var home = document.querySelector('.home');
-  var about = document.querySelector('.about');
-  var port = document.querySelector('.port');
-  var port2 = document.querySelector('.port2');
+  // var home = document.querySelector('.home');
+  // var about = document.querySelector('.about');
+  // var port = document.querySelector('.port');
+  // var port2 = document.querySelector('.port2');
+  // var con = document.querySelector('.contact');
+  // var con2 = document.querySelector('.contact2');
 
   function scrollFunction() {
       if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 400) {
@@ -23,20 +25,34 @@ function moveTop(){
 };
 
 
-function move2(){
-  window.scrollTo({
-   'behavior': 'smooth',
-   'top': 1400,
-  });
-};
+// function move4(){
+//   window.scrollTo({
+//    'behavior': 'smooth',
+//    'top': 2725,
+//   });
+// };
+//
+// function move3(){
+//   window.scrollTo({
+//    'behavior': 'smooth',
+//    'top': 10000,
+//   });
+// };
+//
+// function move2(){
+//   window.scrollTo({
+//    'behavior': 'smooth',
+//    'top': 1483,
+//   });
+// };
 
 
-function move(){
-  window.scrollTo({
-    'behavior': 'smooth',
-    'top': 700,
-  })
-}
+// function move(){
+//   window.scrollTo({
+//     'behavior': 'smooth',
+//     'top': 783,
+//   })
+// }
 
 
 
@@ -48,8 +64,10 @@ function hideNav(){
   }
 }
 
-port2.addEventListener('click',move2, false);
-port.addEventListener('click',move, false);
+// con2.addEventListener('click', move4, false);
+// con.addEventListener('click', move3, false);
+// port2.addEventListener('click',move2, false);
+// port.addEventListener('click',move, false);
 top.addEventListener('click', moveTop, false);
 window.addEventListener('scroll', scrollFunction,false);
 window.addEventListener('scroll', hideNav,false);

@@ -8,6 +8,7 @@ var dynamicContent = {
 				"ps_rose.png",
 				"ps_doth.png",
 				"ps_midterm.png",
+				"ps_background_final.png",
 				"ps_background_final.png"
 			],
 
@@ -24,7 +25,8 @@ var dynamicContent = {
 				"Derrick Rose",
 				"Dot on the Horizon",
 				"Oasis",
-				"Lord of the Rings landing page"
+				"Lord of the Rings landing page",
+				"ps_background_final.png"
 			]
 		},
 
@@ -37,6 +39,7 @@ var dynamicContent = {
 				"ps_rose.png",
 				"ps_doth.png",
 				"ps_midterm.png",
+				"ps_background_final.png",
 				"ps_background_final.png"
 			],
 
@@ -53,6 +56,7 @@ var dynamicContent = {
 				"Derrick Rose",
 				"Dot on the Horizon",
 				"Oasis",
+				"Lord of the Rings landing page",
 				"Lord of the Rings landing page"
 			]
 		},
@@ -65,6 +69,8 @@ var dynamicContent = {
 				"ai_harley.png",
 				"ai_spidey.png",
 				"ai_dragon_tat.png",
+				"ai_portrait.png",
+				"ai_portrait.png",
 				"ai_portrait.png"
 			],
 
@@ -81,6 +87,8 @@ var dynamicContent = {
 				"Low Poly Harley Quinn",
 				"Low Poly Spider-Man",
 				"Girl with the Dragon Tattoo",
+				"Sunset Forest",
+				"Sunset Forest",
 				"Sunset Forest"
 			]
 		},
@@ -93,6 +101,8 @@ var dynamicContent = {
 				"c4_midterm.png",
 				"c4_hotel.png",
 				"c4_wine.png",
+				"c4_makeup.jpg",
+				"c4_makeup.jpg",
 				"c4_makeup.jpg"
 			],
 
