@@ -53,6 +53,7 @@ transition: all 0.3s ease;
   margin-top: 100px;
   img{
     width: 100%;
+    border: solid black 1px;
   }
 }
 
@@ -204,6 +205,10 @@ width: 22px;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    &:hover{
+      color: grey;
+      // transform: rotate(-90deg);
+    }
 }
 
 .myCell{

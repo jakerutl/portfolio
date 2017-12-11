@@ -22,7 +22,7 @@
       <li><a class="port" href="#2">PORTFOLIO</a></li>
       <li><a class="contact" href="#3">CONTACT</a></li>
       <li><a href="resume.pdf">RESUME</a></li>
-      <img class="headerLogo" src="images/jr.png" alt="logo">
+      <img class="headerLogo" src="images/new_logo4.png" alt="logo">
     </ul>
   </div>
 </nav>
