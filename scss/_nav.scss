@@ -67,6 +67,7 @@ transition: all 0.3s ease;
   width: 60px;
   margin-top: 6px;
   margin-right: 15px;
+  index: 8;
 }
 
 .navCon{
@@ -76,16 +77,24 @@ transition: all 0.3s ease;
   width:100%;
   margin-bottom: 20px;
   float: left;
-  background-color: #2d2d2d;
-  // border-bottom: 1px solid #2d2d2d;
+  background-image: url(../images/background2.png) ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-blend-mode: overlay;
+  background-color: overlay;
+  background-color: #4487cc;
 }
+
+
 
 .navigation{
   width: 960px;
   margin: 0 auto;
+  index: 7;
   ul li{
     display: inline;
     a{
+      font-weight: bold;
       font-size: 14px;
       // color: #4487CC;
       color: white;
@@ -136,10 +145,15 @@ transition: all 0.3s ease;
     /*z-index: 1;*/
     top: 0;
     left: 0;
-    background-color: #2d2d2d;
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
+    background-image: url(../images/background4.png) ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-blend-mode: overlay;
+    background-color: #2d2d2d;
+
     li {
     // margin-top: 20px;
     a {
@@ -230,7 +244,10 @@ width: 22px;
   height: 50px;
   background-color: #4487CC;
   cursor: pointer;
-  /*position: fixed;*/
+  background-image: url(../images/background3.png) ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-blend-mode: overlay;
 }
 
 .Stickyhamburger{
@@ -244,6 +261,10 @@ width: 22px;
   background-color: #4487CC;
   cursor: pointer;
   position: fixed;
+  background-image: url(../images/background3.png) ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-blend-mode: overlay;
 }
 
 }

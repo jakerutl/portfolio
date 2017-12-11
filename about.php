@@ -4,8 +4,8 @@
 
 <div class="Aboutbody" id="1">
  <div class="pic">
-  <h1 class="liljake">About</h1>
-   <img  id="img-top" src="images/low_poly_portrait2.png" alt="">
+  <!-- <h1 class="liljake">About</h1> -->
+   <img src="images/low_poly_portrait2.png" alt="">
  </div>
 
   <div class="top">
@@ -14,12 +14,12 @@
 <div class="bio">
   <h2 class="title">About Jake</h2>
   <p class="info">My name is Jake Rutledge and I am a front-end developer and interactive designer. I am creative, resourceful, and a team player. I'm from a small town and love being active. Thank you for coming to my Portfolio, enjoy.  </p>
-
-
 </div>
 </div>
+
 
 <div class="greyBox" id="2">
+
   <h1 id="portTitle">Portfolio</h1>
 </div>
 
@@ -44,6 +44,8 @@
    <img src="" alt="feature image" class="lightbox-img">
    <h1 class="img-title">placeholder</h1>
    <p class="img-desc">placeholder copy</p>
+     <div class="prev"></div>
+     <div class="next"></div>
  </section>
 </div>
 
@@ -106,6 +108,7 @@
 
 
 <script src="js/contentObject.js"></script>
+<script src="js/nextpre.js"></script>
 <script src="js/scrollto.js"></script>
 <script src="js/scroll.js"></script>
 <script src="js/main.js"></script>

@@ -54,8 +54,6 @@ function moveTop(){
 //   })
 // }
 
-
-
 function hideNav(){
   if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 10) {
       document.querySelector(".Stickyhamburger").style.display = "block";
