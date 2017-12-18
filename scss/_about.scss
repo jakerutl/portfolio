@@ -1,5 +1,18 @@
 /*About me page starts*/
 
+
+
+.bodyOne{
+  width: 100%;
+  background-image: url(../images/background.png) ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-blend-mode: overlay;
+  width: 100%;
+  background-color: #2d2d2d;
+  // overflow: hidden;
+}
+
 .Aboutbody{
   width: 960px;
   margin: 0 auto;
@@ -25,7 +38,8 @@
     }
     width: 30%;
     padding: 5px;
-    border: 1px solid #2d2d2d;
+    // border: 1px solid #2d2d2d;
+    border: 1px solid white;
     transition: all .2s ease-in;
     &:hover{
       transform: scale(1.05);
@@ -62,6 +76,7 @@
     /*margin-top: 40px;*/
     margin-bottom: 30px;
     font-size: 36px;
+    color: white;
     font-weight: bold;
     @include bp(mobile){
       margin-top: 40px;
@@ -74,7 +89,8 @@
     overflow: hidden;
     margin-bottom: 20px;
     font-size: 24px;
-    // font-weight: bold;
+    color:white;
+    font-weight: bold;
     @include bp(mobile){
       overflow: hidden;
       font-size: 16px;

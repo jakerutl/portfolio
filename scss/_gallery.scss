@@ -22,6 +22,7 @@
    }
  }
 
+
  #portTitle{
   color: white;
   line-height: 40px;
@@ -139,16 +140,22 @@
     button{
       cursor: pointer;
       border: none;
-      background: transparent;
+      // background: transparent;
+      background: white;
       color: #52a2da;
       border: 1px solid #52a2da;
       padding: 8px;
       font-size: 15px;
       border-radius: 0px;
+
         &:hover{
           background: #52a2da;
           color: white;
           transition: 0.5s;
+    }
+    &:focus{
+      background: #52a2da;
+      color: white;
     }
   }
 }

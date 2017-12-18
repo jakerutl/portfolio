@@ -14,6 +14,12 @@
 </head>
 <body id="navB">
 
+  <div class="preloader">
+   <video autoplay muted>
+       <source src="videos/animation.mp4" type="video/mp4">
+   </video>
+  </div>
+
 <nav class="navCon">
   <div class="navigation">
     <ul>

@@ -2,12 +2,6 @@
 
   var top = document.querySelector('.top');
   var sticky = document.querySelector('.Stickyhamburger');
-  // var home = document.querySelector('.home');
-  // var about = document.querySelector('.about');
-  // var port = document.querySelector('.port');
-  // var port2 = document.querySelector('.port2');
-  // var con = document.querySelector('.contact');
-  // var con2 = document.querySelector('.contact2');
 
   function scrollFunction() {
       if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 400) {

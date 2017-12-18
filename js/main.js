@@ -5,6 +5,7 @@
       theSeasonText = document.querySelector('.main-copy p'),
       appliedClass;
 
+
       //I want to change all the content on the page
       function changeElements(){
         //debugger; //this is a special term that stops code execution(in every function we do this will be the first thing)
@@ -43,7 +44,6 @@
         appliedClass =  this.id;
 
 }
-
 
     theImages.forEach(function(image, index){
       //add an event handler to each image

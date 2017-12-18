@@ -79,6 +79,15 @@ table {
         background: #4487CC; }
 
 /*About me page starts*/
+.bodyOne {
+  width: 100%;
+  background-image: url(../images/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  width: 100%;
+  background-color: #2d2d2d; }
+
 .Aboutbody {
   width: 960px;
   margin: 0 auto;
@@ -94,7 +103,7 @@ table {
   .Aboutbody .pic img {
     width: 30%;
     padding: 5px;
-    border: 1px solid #2d2d2d;
+    border: 1px solid white;
     transition: all .2s ease-in;
     float: left; }
     @media (max-width: 768px) {
@@ -129,6 +138,7 @@ table {
     /*margin-top: 40px;*/
     margin-bottom: 30px;
     font-size: 36px;
+    color: white;
     font-weight: bold; }
     @media (max-width: 768px) {
       .Aboutbody .title {
@@ -138,7 +148,9 @@ table {
     float: right;
     overflow: hidden;
     margin-bottom: 20px;
-    font-size: 24px; }
+    font-size: 24px;
+    color: white;
+    font-weight: bold; }
     @media (max-width: 768px) {
       .Aboutbody .info {
         overflow: hidden;
@@ -152,16 +164,17 @@ table {
 .Concontainer {
   max-width: 460px;
   width: 100%;
-  margin: 0 auto;
-  margin-bottom: 50px; }
+  margin: 0 auto; }
   @media (max-width: 768px) {
     .Concontainer {
       max-width: 360px; } }
   .Concontainer h1 {
     font-size: 26px;
-    font-weight: bold; }
+    font-weight: bold;
+    color: white; }
   .Concontainer h2 {
-    font-weight: bold; }
+    font-weight: bold;
+    color: white; }
 
 .contactTitle {
   text-align: center;
@@ -364,7 +377,7 @@ table {
   .buttons button {
     cursor: pointer;
     border: none;
-    background: transparent;
+    background: white;
     color: #52a2da;
     border: 1px solid #52a2da;
     padding: 8px;
@@ -374,6 +387,9 @@ table {
       background: #52a2da;
       color: white;
       transition: 0.5s; }
+    .buttons button:focus {
+      background: #52a2da;
+      color: white; }
 
 /*gallery ends*/
 #navB {
@@ -382,11 +398,23 @@ table {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: white;
+  background-color: #2d2d2d;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 12px;
   line-height: 30px; }
+
+.preloader {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0; }
+  @media (max-width: 768px) {
+    .preloader {
+      display: none; } }
+  .preloader video {
+    width: 100%;
+    height: 100%; }
 
 .arrow {
   margin-left: 10px;

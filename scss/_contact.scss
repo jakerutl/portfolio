@@ -3,16 +3,18 @@
   max-width: 460px;
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
   @include bp(mobile){
     max-width: 360px;
   }
   h1{
     font-size: 26px;
     font-weight: bold;
+    color: white;
   }
   h2{
     font-weight: bold;
+    color: white;
   }
 }
 

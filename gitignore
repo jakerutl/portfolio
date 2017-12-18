@@ -1,0 +1,7 @@
+/node_modules
+/vendor
+/prod/*
+*.ai
+*.psd
+env.php
+storage/*

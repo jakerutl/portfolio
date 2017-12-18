@@ -2,6 +2,7 @@
   require 'nav.php';
  ?>
 
+<div class="bodyOne">
 <div class="Aboutbody" id="1">
  <div class="pic">
   <!-- <h1 class="liljake">About</h1> -->
@@ -11,12 +12,13 @@
   <div class="top">
     <div class="arrow"></div>
   </div>
-<div class="bio">
-  <h2 class="title">About Jake</h2>
-  <p class="info">My name is Jake Rutledge and I am a front-end developer and interactive designer. I am creative, resourceful, and a team player. I'm from a small town and love being active. Thank you for coming to my Portfolio, enjoy.  </p>
-</div>
-</div>
+  <div class="bio">
+   <h2 class="title">About Jake</h2>
+   <p class="info">My name is Jake Rutledge and I am a front-end developer and interactive designer. I am creative, resourceful, and a team player. I'm from a small town and love being active. Thank you for coming to my Portfolio, enjoy.  </p>
+  </div>
+ </div>
 
+</div>
 
 <div class="greyBox" id="2">
 
@@ -44,8 +46,8 @@
    <img src="" alt="feature image" class="lightbox-img">
    <h1 class="img-title">placeholder</h1>
    <p class="img-desc">placeholder copy</p>
-     <div class="prev"></div>
-     <div class="next"></div>
+     <!-- <div class="prev"></div>
+     <div class="next"></div> -->
  </section>
 </div>
 
@@ -53,11 +55,10 @@
    <div class="arrow"></div>
  </div>
 
-
+<div class="bodyOne">
    <div class="greyBox" id="3">
      <h1 class="section js-section" id="conTitle">Contact</h1>
    </div>
-
 <div class="Concontainer">
  <h1 class="contactTitle"> Let's talk!</h1>
   <h2 class="contactHeader">Fill out the information below and send me an email!</h2>
@@ -100,16 +101,14 @@
      </fieldset>
    </form>
  </div>
-
+</div>
 <!-- <?php
   require 'lowernav.php';
  ?> -->
 
-
-
 <script src="js/contentObject.js"></script>
-<script src="js/nextpre.js"></script>
 <script src="js/scrollto.js"></script>
+<script src-"js/preload.js"></script>
 <script src="js/scroll.js"></script>
 <script src="js/main.js"></script>
 <script src="js/top.js"></script>
