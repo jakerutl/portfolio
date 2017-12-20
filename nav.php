@@ -12,10 +12,11 @@
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js" charset="utf-8"></script>
 </head>
+
 <body id="navB">
 
   <div class="preloader">
-   <video autoplay muted>
+   <video class="preloader" autoplay muted>
        <source src="videos/animation.mp4" type="video/mp4">
    </video>
   </div>

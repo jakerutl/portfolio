@@ -1,4 +1,5 @@
 (function(){
+
   var theImages = document.querySelectorAll('.image-holder'),
       theHeading = document.querySelector('.heading'),
       theSubhead = document.querySelector('.main-copy h2'),
@@ -25,22 +26,16 @@
           newSubImg.classList.add('thumb');
           //set the src
           newSubImg.src = "images/" + objectIndex.images[index];
-
-
           newSubImg.dataset.index = index;
-
           //add an event handler to trigger a lightbox
           newSubImg.addEventListener('click', function() {popLightbox(index, objectIndex);}, false);
-
           //add it to the page
           subImages.appendChild(newSubImg);
 
         });
 
         theSubhead.firstChild.nodeValue = objectIndex.headline;
-
         theSubhead.classList.add(this.id);
-
         appliedClass =  this.id;
 
 }
@@ -50,11 +45,11 @@
       image.addEventListener('click', changeElements, false);
     });
 
-//trigger the lightbox
+// trigger the lightbox
  function popLightbox(currentIndex, currentObject){
    //debugger;
    //move the window to the top every time we click - quick fix
-   window.scrollTo(0,0);
+   // window.scrollTo(0,0);
    document.ontouchmove = function(e){ e.preventDefault(); }
    document.body.style.overflow = "hidden";
 

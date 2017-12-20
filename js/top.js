@@ -19,34 +19,6 @@ function moveTop(){
 };
 
 
-// function move4(){
-//   window.scrollTo({
-//    'behavior': 'smooth',
-//    'top': 2725,
-//   });
-// };
-//
-// function move3(){
-//   window.scrollTo({
-//    'behavior': 'smooth',
-//    'top': 10000,
-//   });
-// };
-//
-// function move2(){
-//   window.scrollTo({
-//    'behavior': 'smooth',
-//    'top': 1483,
-//   });
-// };
-
-
-// function move(){
-//   window.scrollTo({
-//     'behavior': 'smooth',
-//     'top': 783,
-//   })
-// }
 
 function hideNav(){
   if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 10) {

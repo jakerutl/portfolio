@@ -21,7 +21,6 @@
 </div>
 
 <div class="greyBox" id="2">
-
   <h1 id="portTitle">Portfolio</h1>
 </div>
 
@@ -33,11 +32,14 @@
      <button class="image-holder" id="lightboxFour">3D</button>
    </section>
 
+
    <article class="main-copy">
      <h2 class="catagory">after effects</h2>
    </article>
 
- <ul class="subImagesContainer"></ul>
+ <ul class="subImagesContainer">
+
+ </ul>
 
 
 
