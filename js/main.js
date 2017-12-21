@@ -65,6 +65,7 @@
   lightboxDesc.innerHTML = currentObject.imageDescription[currentIndex];
   lightboxTitle.innerHTML = currentObject.imageTitle[currentIndex];
   lightboxClose.addEventListener('click', closeLightbox, false);
+  lightbox.addEventListener('click', closeLightbox, false);
 
   function closeLightbox(){
     //reset everything, close the lightbox

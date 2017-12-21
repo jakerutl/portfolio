@@ -11,6 +11,10 @@
   line-height: 30px;
 }
 
+.street{
+  display: none;
+}
+
 .preloader{
   @include bp(mobile) {
     display: none;
