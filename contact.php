@@ -48,7 +48,7 @@
 </fieldset>
 
 <fieldset>
-  <button name="submit" type="submit" id="contact-submit">SEND</button>
+  <button name="submit" value="Send" type="submit" id="contact-submit">SEND</button>
 </fieldset>
 </form>
 </div>

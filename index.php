@@ -14,7 +14,7 @@
   </div>
   <div class="bio">
    <h2 class="title">About Jake</h2>
-   <p class="info">My name is Jake Rutledge and I am a front-end developer and interactive designer. I am creative, resourceful, and a team player. I'm from a small town and love being active. Thank you for coming to my Portfolio, enjoy.  </p>
+   <p class="info"></p>
   </div>
  </div>
 
@@ -60,7 +60,8 @@
  <?php
    require 'contact.php';
   ?>
-
+  
+<script src="js/database.js"></script>
 <script src="js/contentObject.js"></script>
 <script src="js/scrollto.js"></script>
 <script src-"js/preload.js"></script>

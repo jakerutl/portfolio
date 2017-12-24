@@ -13,7 +13,7 @@ function submitMessage($name, $email, $phone, $message, $direct){
   $subj = "Message from customer submitted via site.com";
   $extra = "Reply-To: ".$email;
   $msg = "Name: ".$name."\n\nEmail: ".$email."\n\nPhone: ".$phone."\n\nComments: ".$message; // \n\nbasically the same as a br tag
-  // mail($to,$subj,$msg,$extra);
+  mail($to,$subj,$msg,$extra);
   $direct = $direct. "?name={$name}"; //grabs persons name from filling out the contact form
   redirect_to($direct);
 
