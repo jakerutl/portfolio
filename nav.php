@@ -4,25 +4,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
     <title>Jake Rutledge | Portfolio</title>
-  <!-- <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"> -->
   <link href='http://fonts.googleapis.com/css?family=Mystery+Quest' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/lightbox.css" type="text/css">
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js" charset="utf-8"></script>
 </head>
+
 <body id="navB">
+
+  <div class="preloader">
+    <h2 class="hidden">Header Video</h2>
+   <video class="preloader" autoplay muted>
+       <source src="videos/animation.mp4" type="video/mp4">
+   </video>
+  </div>
 
 <nav class="navCon">
   <div class="navigation">
+    <h2 class="hidden">Navigation</h2>
     <ul>
-      <li><a href="index.php">HOME</a></li>
-      <li><a href="about.php">ABOUT ME</a></li>
-      <li><a href="gallery.php">PORTFOLIO</a></li>
-      <li><a href="contact.php">CONTACT</a></li>
+      <li><a class="home" href="#">HOME</a></li>
+      <li><a class="about" href="#1">ABOUT ME</a></li>
+      <li><a class="port" href="#2">PORTFOLIO</a></li>
+      <li><a class="contact" href="#3">CONTACT</a></li>
       <li><a href="resume.pdf">RESUME</a></li>
-      <img class="headerLogo" src="images/jr.png" alt="logo">
+      <img class="headerLogo" src="images/new_logo4.png" alt="logo">
     </ul>
   </div>
 </nav>
@@ -35,10 +43,10 @@
   <ul>
     <li><a href="#" class="closebtn" onclick="closeNav()">&times;</a></li>
     <li><a href="index.php">HOME</a></li>
-    <li><a href="about.php">ABOUT ME</a></li>
-    <li><a href="gallery.php">PORTFOLIO</a></li>
+    <li><a onclick="closeNav()" href="#1">ABOUT ME</a></li>
+    <li><a class="port2" onclick="closeNav()" href="#2">PORTFOLIO</a></li>
     <li><a href="resume.pdf">RESUME</a></li>
-    <li><a href="contact.php">CONTACT</a></li>
+    <li><a class="contact2" onclick="closeNav()"href="#3">CONTACT</a></li>
   </ul>
 
  <div class="social">

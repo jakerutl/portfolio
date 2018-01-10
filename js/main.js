@@ -1,64 +1,56 @@
 (function(){
+
   var theImages = document.querySelectorAll('.image-holder'),
+      next = document.querySelector('.next');
       theHeading = document.querySelector('.heading'),
       theSubhead = document.querySelector('.main-copy h2'),
-      theSeasonText = document.querySelector('.main-copy p'),
-      appliedClass;
+      theSeasonText = document.querySelector('.main-copy p');
 
-      //I want to change all the content on the page
+var dynamicContent = null;
+      function getPortfolio(){
+        const url = './scripts/getPortfolio.php'
+
+        fetch(url)
+          .then((resp) => resp.json())
+          .then(function(resp){
+            dynamicContent = resp;
+            changeElements.call(document.querySelector('#cat_1'));
+            });
+      }
+      window.addEventListener('load',getPortfolio,false);
+
       function changeElements(){
-        //debugger; //this is a special term that stops code execution(in every function we do this will be the first thing)
         let subImages = document.querySelector('.subImagesContainer');
         let objectIndex = dynamicContent[this.id];
 
-        //remove dubplicated images
         while(subImages.firstChild){
           subImages.removeChild(subImages.firstChild);
         }
 
-        //add the images to the bottom of the page
-        objectIndex.images.forEach(function(images, index) {
-          //create an image element
+        objectIndex.forEach(function(images, index) {
           let newSubImg = document.createElement('img');
-          //add a css class to it
           newSubImg.classList.add('thumb');
-          //set the src
-          newSubImg.src = "images/" + objectIndex.images[index];
-
-
+          newSubImg.src = "images/thumb-" + objectIndex[index].image_path;
           newSubImg.dataset.index = index;
-
-          //add an event handler to trigger a lightbox
           newSubImg.addEventListener('click', function() {popLightbox(index, objectIndex);}, false);
-
-          //add it to the page
           subImages.appendChild(newSubImg);
 
         });
 
-        theSubhead.firstChild.nodeValue = objectIndex.headline;
-
+        theSubhead.firstChild.nodeValue = index;
         theSubhead.classList.add(this.id);
-
         appliedClass =  this.id;
 
 }
 
-
     theImages.forEach(function(image, index){
-      //add an event handler to each image
       image.addEventListener('click', changeElements, false);
     });
 
-//trigger the lightbox
  function popLightbox(currentIndex, currentObject){
-   //debugger;
-   //move the window to the top every time we click - quick fix
-   window.scrollTo(0,0);
    document.ontouchmove = function(e){ e.preventDefault(); }
    document.body.style.overflow = "hidden";
 
-//trigger the lightbox overlay so that we can see it!
    let lightbox = document.querySelector('.lightbox');
    let lightboxImg = lightbox.querySelector('img');
    let lightboxDesc = lightbox.querySelector('p');
@@ -66,26 +58,22 @@
    let lightboxTitle = lightbox.querySelector('h1');
 
   lightbox.style.display = 'block';
-  lightboxImg.src = "images/" + currentObject.images[currentIndex];
-  lightboxDesc.innerHTML = currentObject.imageDescription[currentIndex];
-  lightboxTitle.innerHTML = currentObject.imageTitle[currentIndex];
+  lightboxImg.src = "images/" + currentObject[currentIndex].image_path;
+  lightboxDesc.innerHTML = currentObject[currentIndex].image_desc;
+  lightboxTitle.innerHTML = currentObject[currentIndex].image_title;
   lightboxClose.addEventListener('click', closeLightbox, false);
+  lightbox.addEventListener('click', closeLightbox, false);
 
   function closeLightbox(){
-    //reset everything, close the lightbox
-    //debugger;
 
     document.ontouchmove = function(e){ return true; }
-    lightbox.style.display = 'none'; //turns lightbox off
-    document.body.style.overflow = "auto";//turns scrolling back on
-    lightbox.querySelector('img').src = "";//resets image
-    lightbox.querySelector('p').innerHTML = ""; //resets desc
-    lightbox.querySelector('h1').innerHTML = "";//resets title
+    lightbox.style.display = 'none';
+    document.body.style.overflow = "auto";
+    lightbox.querySelector('img').src = "";
+    lightbox.querySelector('p').innerHTML = "";
+    lightbox.querySelector('h1').innerHTML = "";
 
   }
 
  }
-
-// document.querySelector('#spring').click(); one way to get it to load properly
-changeElements.call(document.querySelector('#spring' ));
 })();
