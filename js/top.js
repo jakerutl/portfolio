@@ -28,10 +28,6 @@ function hideNav(){
   }
 }
 
-// con2.addEventListener('click', move4, false);
-// con.addEventListener('click', move3, false);
-// port2.addEventListener('click',move2, false);
-// port.addEventListener('click',move, false);
 top.addEventListener('click', moveTop, false);
 window.addEventListener('scroll', scrollFunction,false);
 window.addEventListener('scroll', hideNav,false);

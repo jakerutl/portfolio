@@ -2,7 +2,6 @@
 @import 'reset';
 @import 'globals';
 @import 'mixins';
-// @import 'index';
 @import 'about';
 @import 'contact';
 @import 'thankyou';
@@ -45,12 +44,10 @@ body{
 
 
     #navB {
-      /*background-image: url(../images/background.jpg) ;*/
       background-position: center center;
       background-repeat:  no-repeat;
       background-attachment: fixed;
       background-size:  cover;
-      /*background-color: #999;*/
       font-family: "Roboto", Helvetica, Arial, sans-serif;
       font-weight: 100;
       font-size: 12px;

@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
     <title>Jake Rutledge | Portfolio</title>
-  <!-- <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"> -->
   <link href='http://fonts.googleapis.com/css?family=Mystery+Quest' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -16,6 +15,7 @@
 <body id="navB">
 
   <div class="preloader">
+    <h2 class="hidden">Header Video</h2>
    <video class="preloader" autoplay muted>
        <source src="videos/animation.mp4" type="video/mp4">
    </video>
@@ -23,6 +23,7 @@
 
 <nav class="navCon">
   <div class="navigation">
+    <h2 class="hidden">Navigation</h2>
     <ul>
       <li><a class="home" href="#">HOME</a></li>
       <li><a class="about" href="#1">ABOUT ME</a></li>

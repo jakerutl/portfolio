@@ -1,17 +1,12 @@
 <?php
-//this file will connect us to the database
 
-	$user = "root";
-	$pass = "root";
-	$url = "localhost";
+	$user = "jaker145";
+	$pass = "rutledge12";
+	$url = "jakerutledgecom.domaincommysql.com";
 	$db = "db_about";
 
-//key to access the database
-	$link = mysqli_connect($url, $user, $pass, $db, "8888"); //must be in this order and port must be divorced from the URL path
-
-	//incase the connection fails.. error!
+	$link = mysqli_connect($url, $user, $pass, $db);
 	if(mysqli_connect_errno()) {
-		//forces it into a formatted string whereas echo could be anything
 		printf("Connection Failed: %s\n", mysqli_connect_error());
 		exit();
 	}

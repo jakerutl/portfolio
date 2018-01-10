@@ -11,7 +11,6 @@
     $direct = "thankyou.php";
     if($street === "") {
       $sendMail = submitMessage($name, $email, $phone, $message, $direct);
-      // echo "Street is empty"; //if street is empy we should see this
     }
   }
 

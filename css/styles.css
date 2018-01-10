@@ -44,15 +44,19 @@ table {
   border-spacing: 0; }
 
 /* End Reset */
-/*About me page starts*/
 .bodyOne {
   width: 100%;
-  background-image: url(../images/background.png);
+  background-image: url(../images/desktop_about_bg.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
-  width: 100%;
-  background-color: #2d2d2d; }
+  width: 100%; }
+  @media (max-width: 1600px) {
+    .bodyOne {
+      background-image: url(../images/desktop_about_bg.png); } }
+  @media (max-width: 1024px) {
+    .bodyOne {
+      background-image: url(../images/aboutbody_tablet.png); } }
 
 .Aboutbody {
   width: 960px;
@@ -66,6 +70,12 @@ table {
       margin: 0 auto;
       padding-top: 0;
       padding-bottom: 300px; } }
+  @media (max-width: 1024px) {
+    .Aboutbody {
+      width: 100%;
+      margin: 0 auto;
+      padding-top: 0;
+      padding-bottom: 250px; } }
   .Aboutbody .pic img {
     width: 30%;
     padding: 5px;
@@ -79,9 +89,16 @@ table {
         border: none;
         transition: all .2s ease-in;
         margin-bottom: 50px; } }
+    @media (max-width: 1024px) {
+      .Aboutbody .pic img {
+        width: 100%;
+        padding: 0;
+        border: none;
+        transition: all .2s ease-in;
+        margin-bottom: 50px; } }
     .Aboutbody .pic img:hover {
       transform: scale(1.05); }
-  @media (min-width: 769px) {
+  @media (min-width: 1025px) {
     .Aboutbody .liljake {
       display: none; } }
   @media (max-width: 768px) {
@@ -95,18 +112,26 @@ table {
     width: 60%;
     float: right;
     margin-bottom: 50px; }
+    @media (max-width: 1024px) {
+      .Aboutbody .bio {
+        width: 600px;
+        float: none;
+        margin: 0 auto; } }
     @media (max-width: 768px) {
       .Aboutbody .bio {
         width: 300px;
         float: none;
         margin: 0 auto; } }
   .Aboutbody .title {
-    /*margin-top: 40px;*/
     margin-bottom: 30px;
     font-size: 36px;
     color: white;
     font-weight: bold; }
     @media (max-width: 768px) {
+      .Aboutbody .title {
+        margin-top: 40px;
+        margin-bottom: 30px; } }
+    @media (max-width: 1024px) {
       .Aboutbody .title {
         margin-top: 40px;
         margin-bottom: 30px; } }
@@ -120,12 +145,14 @@ table {
       .Aboutbody .info {
         overflow: hidden;
         font-size: 16px; } }
+    @media (max-width: 1024px) {
+      .Aboutbody .info {
+        overflow: hidden;
+        font-size: 16px; } }
   .Aboutbody #name {
     width: 30%;
     float: left; }
 
-/*about me page ends*/
-/*contact starts */
 .Concontainer {
   max-width: 460px;
   width: 100%;
@@ -176,7 +203,6 @@ table {
   background: transparent;
   padding: 18px;
   margin-top: 30px;
-  /*border: 2px solid #52a2da;*/
   border-radius: 20px; }
   #contact input[type="text"],
   #contact input[type="email"],
@@ -211,6 +237,9 @@ table {
   padding: 8px;
   font-size: 15px;
   border-radius: 20px; }
+  @media (max-width: 1024px) {
+    #contact button {
+      width: 100%; } }
   @media (max-width: 768px) {
     #contact button {
       width: 100%; } }
@@ -255,12 +284,14 @@ table {
     margin: 0 auto;
     margin-top: 150px; }
 
-/*gallery starts*/
 .subImagesContainer {
   padding: 0;
   width: 984px;
   margin: 0 auto;
   margin-bottom: 100px; }
+  @media (max-width: 1024px) {
+    .subImagesContainer {
+      width: 80%; } }
   @media (max-width: 768px) {
     .subImagesContainer {
       width: 80%; } }
@@ -291,17 +322,21 @@ table {
   margin-right: 8px;
   border: 1px solid #2d2d2d;
   padding: 2px;
-  /*border-radius: 5px;*/
   cursor: pointer;
   transition: opacity 0.2s ease-in;
   transition: transform 0.2s ease-in; }
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
+    .thumb {
+      width: 48%;
+      height: 100%; } }
+  @media (max-width: 1024px) and (max-width: 768px) {
     .thumb {
       padding: 2px;
       width: 100%;
       height: 200%;
       margin-right: 0px;
       z-index: 1; } }
+
   .thumb:hover {
     opacity: 0.8;
     transform: scale(1.03); }
@@ -392,7 +427,6 @@ table {
       background: #52a2da;
       color: white; }
 
-/*gallery ends*/
 #navB {
   background-image: url(../images/background.jpg);
   background-position: center center;
@@ -415,6 +449,9 @@ table {
   padding: 0;
   margin-bottom: -6px; }
   @media (max-width: 768px) {
+    .preloader {
+      display: none; } }
+  @media (max-width: 1024px) {
     .preloader {
       display: none; } }
   .preloader video {
@@ -473,7 +510,6 @@ table {
   index: 8; }
 
 .navCon {
-  /*margin-bottom: 40px;*/
   font-family: "Arial";
   width: 100%;
   float: left;
@@ -505,11 +541,11 @@ table {
       .navigation ul li a:hover {
         color: #4487CC; }
 
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
   .sidenav {
     display: none; } }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .navigation {
     display: none; }
 
@@ -526,7 +562,6 @@ table {
     height: 100%;
     width: 0;
     position: fixed;
-    /*z-index: 1;*/
     top: 0;
     left: 0;
     overflow-x: hidden;
@@ -578,7 +613,6 @@ table {
       color: grey; }
 
   .myCell {
-    /*margin-top: 80px;*/
     color: white;
     font-size: 12px;
     text-align: center; }
@@ -610,9 +644,8 @@ table {
     margin-bottom: -40px;
     width: 100%;
     height: 50px;
-    background-color: #4487CC;
     cursor: pointer;
-    background-image: url(../images/background3.png);
+    background-image: url(../images/nav_background.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: overlay; }
@@ -625,10 +658,128 @@ table {
     margin-bottom: 20px;
     width: 100%;
     height: 50px;
-    background-color: #4487CC;
     cursor: pointer;
     position: fixed;
-    background-image: url(../images/background3.png);
+    background-image: url(../images/nav_background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay; } }
+@media only screen and (max-width: 768px) {
+  .navigation {
+    display: none; }
+
+  .logo {
+    max-width: 100px;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+    .logo img {
+      width: 100%; }
+
+  .sidenav {
+    z-index: 3;
+    list-style-type: none;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    background-image: url(../images/background4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: #2d2d2d; }
+    .sidenav li a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      display: block;
+      transition: 0.3s; }
+
+  .social {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    display: block;
+    width: 119px;
+    margin-top: 50px; }
+    .social img {
+      margin-right: 7px;
+      padding-left: 5px;
+      padding-right: 5px;
+      width: 35px;
+      cursor: pointer;
+      transition: opacity 0.2s ease-in; }
+      .social img:hover {
+        cursor: pointer;
+        opacity: 0.8; }
+
+  #fb {
+    width: 22px; }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px; }
+    .sidenav .closebtn:hover {
+      color: grey; }
+
+  .myCell {
+    color: white;
+    font-size: 12px;
+    text-align: center; }
+
+  .bar1 {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    border-radius: 20px; }
+
+  .bar2 {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    border-radius: 20px; }
+
+  .bar3 {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    border-radius: 20px; }
+
+  .hamburger {
+    padding-top: 8px;
+    padding-left: 15px;
+    margin-bottom: -40px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background-image: url(../images/mobile_nav_header.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay; }
+
+  .Stickyhamburger {
+    z-index: 2;
+    display: none;
+    padding-top: 8px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    position: fixed;
+    background-image: url(../images/mobile_nav_header.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: overlay; } }
@@ -648,12 +799,10 @@ body {
   /*home screen Nav starts*/
   /*home screen Nav ends*/
   #navB {
-    /*background-image: url(../images/background.jpg) ;*/
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /*background-color: #999;*/
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-weight: 100;
     font-size: 12px;
